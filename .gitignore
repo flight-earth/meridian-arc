@@ -1,0 +1,15 @@
+*.swo
+*.swn
+*.swm
+*.swl
+*.swk
+*.swj
+**/_build/**
+**/_static/**
+**/_template/**
+**/.ionide/**
+**/.vs/**
+**/bin/**
+**/obj/**
+packages
+paket-files
