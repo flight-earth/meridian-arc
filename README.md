@@ -1,3 +1,5 @@
-# Flare Timing
+# Meridian Arc
 
-The geodesy calculations are repeated here in F#.
+Geodesy problems and their solutions.
+
+![dotnet-core](https://github.com/BlockScope/meridian-arc/workflows/dotnet-core/badge.svg)
