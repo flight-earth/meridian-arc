@@ -1,4 +1,4 @@
-name: dotnet-core
+name: dotnet-mac
 
 on:
   push:
@@ -9,11 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [windows-latest, ubuntu-latest]
+    runs-on: macos-latest
 
     env:
       DOTNET_NOLOGO: true
