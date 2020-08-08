@@ -3,6 +3,7 @@ name: dotnet-ubuntu
 on:
   push:
     branches: [ ci-ubuntu ]
+
   pull_request:
     branches: [ ci-ubuntu ]
 
