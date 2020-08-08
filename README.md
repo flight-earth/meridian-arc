@@ -2,7 +2,9 @@
 
 Geodesy problems and their solutions.
 
-![dotnet-core](https://github.com/BlockScope/meridian-arc/workflows/dotnet-core/badge.svg)
+![dotnet-win](https://github.com/BlockScope/meridian-arc/workflows/dotnet-win/badge.svg)
+![dotnet-ubuntu](https://github.com/BlockScope/meridian-arc/workflows/dotnet-ubuntu/badge.svg)
+![dotnet-mac](https://github.com/BlockScope/meridian-arc/workflows/dotnet-mac/badge.svg)
 
 ## License
 
