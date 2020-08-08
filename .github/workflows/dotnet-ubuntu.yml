@@ -2,9 +2,9 @@ name: dotnet-ubuntu
 
 on:
   push:
-    branches: [ master ]
+    branches: [ ci-ubuntu ]
   pull_request:
-    branches: [ master ]
+    branches: [ ci-ubuntu ]
 
 jobs:
   build:

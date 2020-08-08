@@ -2,9 +2,9 @@ name: dotnet-mac
 
 on:
   push:
-    branches: [ master ]
+    branches: [ ci-mac ]
   pull_request:
-    branches: [ master ]
+    branches: [ ci-mac ]
 
 jobs:
   build:
