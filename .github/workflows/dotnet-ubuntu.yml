@@ -25,7 +25,7 @@ jobs:
         dotnet-version: 3.1.*
 
     - name: dependencies
-      run: dotnet restore
+      run: dotnet restore --verbosity Detailed --disable-parallel
 
     - name: build
       run: dotnet build --configuration Release --no-restore
