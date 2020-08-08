@@ -3,6 +3,7 @@ name: dotnet-win
 on:
   push:
     branches: [ master ]
+
   pull_request:
     branches: [ master ]
 

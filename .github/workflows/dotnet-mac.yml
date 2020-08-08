@@ -3,6 +3,7 @@ name: dotnet-mac
 on:
   push:
     branches: [ ci-mac ]
+
   pull_request:
     branches: [ ci-mac ]
 
