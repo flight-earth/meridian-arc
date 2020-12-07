@@ -1,1 +1,22 @@
-type project
+type file
+id meridian-arc
+description
+    Geodesy problems and their solutions.
+version
+    0.1.6
+authors
+    Phil de Joux
+copyright
+    \u00A9 2019-2020 Phil de Joux, \u00A9 2019-2020 Block Scope Limited
+summary
+    Geodesy problems and their solutions.
+licenseurl https://github.com/BlockScope/meridian-arc/blob/master/LICENSE.md
+projecturl https://github.com/BlockScope/meridian-arc
+iconurl https://github.com/BlockScope/blockscope/blob/master/favicon-32x32.png
+tags
+    F#, haversines, vincenty, gps, wgs84
+files
+    earth/bin/Release/netcoreapp3.0/*.dll => lib/netcoreapp3.0
+    earth/bin/Release/netcoreapp3.0/*.json => lib/netcoreapp3.0
+    !earth/bin/Release/netcoreapp3.0/*.runtimeconfig.dev.json
+    !earth/bin/Release/netcoreapp3.0/xunit*
