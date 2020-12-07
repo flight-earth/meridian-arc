@@ -7,7 +7,7 @@
     <Compile Include="library/Flight/Zone/Radius.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\units\units.fsproj" />
+    <ProjectReference Include="..\units\flight-units.fsproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
