@@ -64,10 +64,8 @@ Wrote: .../meridian-arc/paket-pack/meridian-arc.0.1.3.nupkg
 ```
 > dotnet run --project test-earth
 Distances from Vincenty's 1975 paper using 1x Bessel and 4x Hayford ellipsoids:
-{ equatorialR = Radius 6377397.155
-  recipF = 299.1528128 }
-{ equatorialR = Radius 6378388.0
-  recipF = 297.0 }
+R=6377397.155, 1/ƒ=299.1528128
+R=6378388, 1/ƒ=297
 Distance (55°45', 0°) => (-33°26', 108°13') = 14110526.169596m
 Distance (37°19'54.95367'', 0°) => (26°7'42.83946'', 41°28'35.50729'') = 4085966.702613m
 Distance (35°16'11.24862'', 0°) => (67°22'14.77638'', 137°47'28.31435'') = 8084823.838297m

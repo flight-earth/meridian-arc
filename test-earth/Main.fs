@@ -27,8 +27,8 @@ let xys =
 [<EntryPoint>]
 let main argv =
     printf "Distances from Vincenty's 1975 paper using 1x Bessel and 4x Hayford ellipsoids:\r\n"
-    printf "%A\r\n" bessel
-    printf "%A\r\n" hayford
+    printf "%O\r\n" bessel
+    printf "%O\r\n" hayford
     for (e, (x, y)) in List.zip es xys do
         let x' = LatLng.FromDMS x
         let y' = LatLng.FromDMS y
