@@ -33,6 +33,6 @@ let main argv =
         let x' = LatLng.FromDMS x
         let y' = LatLng.FromDMS y
         let (TaskDistance d) = distance e x' y'
-        printf "Distance (%A, %A) = %fm\r\n" x y d
+        printf "Distance %O => %O = %fm\r\n" x y d
 
     0
