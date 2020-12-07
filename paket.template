@@ -3,7 +3,7 @@ id meridian-arc
 description
     Geodesy problems and their solutions.
 version
-    0.1.6
+    0.1.7
 authors
     Phil de Joux
 copyright
@@ -17,6 +17,7 @@ tags
     F#, haversines, vincenty, gps, wgs84
 files
     earth/bin/Release/netcoreapp3.0/*.dll => lib/netcoreapp3.0
+    earth/bin/Release/netcoreapp3.0/*.pdb => lib/netcoreapp3.0
     earth/bin/Release/netcoreapp3.0/*.json => lib/netcoreapp3.0
     !earth/bin/Release/netcoreapp3.0/*.runtimeconfig.dev.json
     !earth/bin/Release/netcoreapp3.0/xunit*
