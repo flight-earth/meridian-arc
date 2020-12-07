@@ -13,6 +13,8 @@
 **/obj/**
 packages
 paket-files
+paket-pack
 
 .fake
 .ionide
+*.zip

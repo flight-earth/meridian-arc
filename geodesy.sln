@@ -8,13 +8,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{0D26B8
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "units", "units\units.fsproj", "{25F8EBE9-1964-4CCA-AD43-E958190827E7}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "flight-units", "units\flight-units.fsproj", "{25F8EBE9-1964-4CCA-AD43-E958190827E7}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "earth", "earth\earth.fsproj", "{10682690-096C-45C4-8146-C930F42CDF9D}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "flight-earth", "earth\flight-earth.fsproj", "{10682690-096C-45C4-8146-C930F42CDF9D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "latlng", "latlng\latlng.fsproj", "{4467D22C-200E-4A2E-A5D9-1C3D542D5793}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "flight-latlng", "latlng\flight-latlng.fsproj", "{4467D22C-200E-4A2E-A5D9-1C3D542D5793}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "zone", "zone\zone.fsproj", "{8AD96FAE-38AA-487C-8963-569D759A5759}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "flight-zone", "zone\flight-zone.fsproj", "{8AD96FAE-38AA-487C-8963-569D759A5759}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
