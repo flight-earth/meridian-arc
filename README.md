@@ -59,6 +59,22 @@ Packaging: .../meridian-arc/paket.template
 Wrote: .../meridian-arc/paket-pack/meridian-arc.0.1.3.nupkg
 ```
 
+## Nuget Package Test
+
+```
+> dotnet run --project test-earth
+Distances from Vincenty's 1975 paper using 1x Bessel and 4x Hayford ellipsoids:
+{ equatorialR = Radius 6377397.155
+  recipF = 299.1528128 }
+{ equatorialR = Radius 6378388.0
+  recipF = 297.0 }
+Distance ((DMS (55, 45, 0.0), DMS (0, 0, 0.0)), (DMS (-33, 26, 0.0), DMS (108, 13, 0.0))) = 14110526.169596m
+Distance ((DMS (37, 19, 54.95367), DMS (0, 0, 0.0)), (DMS (26, 7, 42.83946), DMS (41, 28, 35.50729))) = 4085966.702613m
+Distance ((DMS (35, 16, 11.24862), DMS (0, 0, 0.0)), (DMS (67, 22, 14.77638), DMS (137, 47, 28.31435))) = 8084823.838297m
+Distance ((DMS (1, 0, 0.0), DMS (0, 0, 0.0)), (DMS (0, -59, 53.83076), DMS (179, 17, 48.02997))) = 19959999.999803m
+Distance ((DMS (1, 0, 0.0), DMS (0, 0, 0.0)), (DMS (1, 1, 15.18952), DMS (179, 46, 17.84244))) = 19780006.558786m
+```
+
 ## License
 
 ```
