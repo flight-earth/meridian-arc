@@ -3,9 +3,9 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\units\units.fsproj" />
-    <ProjectReference Include="..\latlng\latlng.fsproj" />
-    <ProjectReference Include="..\zone\zone.fsproj" />
+    <ProjectReference Include="..\units\flight-units.fsproj" />
+    <ProjectReference Include="..\latlng\flight-latlng.fsproj" />
+    <ProjectReference Include="..\zone\flight-zone.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="library/Flight/Earth/Math.fs" />
