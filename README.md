@@ -11,7 +11,7 @@ Geodesy problems and their solutions.
 ```
 > dotnet --version
 3.1.202
-> donet clean
+> dotnet clean
 > dotnet build
 ```
 
