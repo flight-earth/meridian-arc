@@ -59,7 +59,7 @@ Packaging: .../meridian-arc/paket.template
 Wrote: .../meridian-arc/paket-pack/meridian-arc.0.1.3.nupkg
 ```
 
-## Nuget Package Test
+## Nuget Package Testing
 
 ```
 > dotnet run --project test-earth
